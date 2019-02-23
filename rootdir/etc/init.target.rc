@@ -1,4 +1,4 @@
 on init
-    mount none /system/etc/manifest.xml /vendor/etc/vintf/manifest.xml bind
     mount none /system/etc/qdcm_calib_data_gvo_fhd_cmd_dsi_panel.xml /vendor/etc/qdcm_calib_data_gvo_fhd_cmd_dsi_panel.xml bind
     mount none /system/etc/qdcm_calib_data_ss_notch_fhd_cmd_dsi_panel.xml /vendor/etc/qdcm_calib_data_ss_notch_fhd_cmd_dsi_panel.xml bind
+    mount none /system/etc/nfc/libnfc-nxp.conf /vendor/etc/libnfc-nxp.conf bind
