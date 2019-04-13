@@ -43,6 +43,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.target.rc
 
+# Display
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/qdcm_calib_data_gvo_fhd_cmd_dsi_panel.xml:system/etc/qdcm_calib_data_gvo_fhd_cmd_dsi_panel.xml \
+    $(LOCAL_PATH)/configs/qdcm_calib_data_ss_notch_fhd_cmd_dsi_panel.xml:system/etc/qdcm_calib_data_ss_notch_fhd_cmd_dsi_panel.xml
+
 # HIDL
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/manifest.xml:system/etc/manifest.xml
